@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Criar Personagem</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <h2 id="criaçãodepersonagem" class="persona">Criação de Personagens</h2>
+        </div>
+    </section>
+
+    <section id="secPersonagens">
+        <div id="divBox" class="box">
+
+            <form action="">
+
+                <fieldset>
+
+                    <legend><b>Personagem 1</b></legend>
+                    <br />
+
+                    <div class="inputbox">
+                        <input type="text" nome="nome" id="nome" class="inputuser" required>
+                        <label for="nome">Nome:</label>
+                    </div>
+
+                    <br />
+
+                    <p>Nação:</p>
+                    <br>
+
+                    <input type="radio" id="anão" nome="anão" value="anão" required />
+                    <label for="anão">Anão</label>
+                    <br />
+
+                    <input type="radio" id="hobbit" nome="tribo" value="hobbit" required />
+                    <label for="hobbit">Hobbit</label>
+                    <br />
+
+                    <input type="radio" id="cavaleiro de rohan" nome="tribo" value="cavaleiro de rohan" required />
+                    <label for="cavaleiro de rohan">Cavaleiro de Rohan</label>
+                    <br />
+
+                    <input type="radio" id="guerreiro de gondor" nome="tribo" value="guerreiro de gondor" required />
+                    <label for="guerreiro de gondor">Guerreiro de Gondor</label>
+                    <br />
+
+                    <input type="radio" id="elfo da floresta" nome="tribo" value="elfo da floresta" required />
+                    <label for="elfo da floresta">Elfo da Floresta</label>
+                    <br />
+
+                    <input type="radio" id="elfo de lothlorien" nome="tribo" value="elfo de lothlorien" required />
+                    <label for="elfo de lothlorien">Elfo de Lothlorien</label>
+                    <br />
+
+                    <input type="radio" id="orc snaga" nome="tribo" value="orc snaga" required />
+                    <label for="orc snaga">Orc Snaga</label>
+                    <br />
+
+                    <input type="radio" id="uruk-hai" nome="tribo" value="uruk-hai" required />
+                    <label for="uruk-hai">Uruk-hai</label>
+                    <br><br><br>
+
+                    <p class="titulo">Habilidade:</p>
+
+                    <div class="seletor">
+                        <label for="Força">Força:  </label>
+                        <input type="number" name="numero" id="numero" placeholder="Força" min="1" max="100"><br>
+                        <label for="Precisão">Precisão:  </label>
+                        <input type="number" name="numero" id="numero" placeholder="Precisão" min="1" max="100"><br>
+                        <label for="Velocidade">Velocidade:  </label>
+                        <input type="number" name="numero" id="numero" placeholder="Velocidade" min="1" max="100"><br>
+                        <label for="Armadura">Armadura:  </label>
+                        <input type="number" name="numero" id="numero" placeholder="Armadura" min="1" max="100"><br>
+                        <label for="Recuperação">Recuperação:  </label>
+                        <input type="number" name="numero" id="numero" placeholder="Recuperação" min="1" max="100"><br><br>
+                        <input type="submit" name="submit" id="submit">
+
+                    </div>
+
+                </fieldset>
+                </select>
+            </form>
+            <button style="position: relative; top: 0%; left: 38%;" id="botaoCriar" onclick="duplicarCampos()">Adicionar</button>
+        </div>
+
+    </section>
+
+    <section id="clonaPersonagens" class="aparecer">
+
+    </section>
+    <script src="../Trabalho html/principal.js"></script>
+</body>
+
+</html>
